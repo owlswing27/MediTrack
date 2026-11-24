@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.streamlit/secrets.toml
+patients.json
+backup/
+test_connection.py
+*.pyc
