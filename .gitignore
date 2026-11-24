@@ -1,7 +1,36 @@
+# Python environments
 .venv/
+venv/
+env/
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Environment variables and credentials
+.env
+.env.*
 .streamlit/secrets.toml
+
+# MediTrack private/local data
 patients.json
 backup/
 test_connection.py
+
+# Temporary files
+*.log
 *.pyc
+.DS_Store
